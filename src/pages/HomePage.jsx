@@ -11,22 +11,27 @@ const HomePage = () => {
     {
       product: "Cartucho de tinta HP",
       discount: "20% de descuento",
-      image: "/images/cartucho.jpg"
+      image: "/images/cartucho.jpg",
+      description: "Contiene tinta de alta calidad para impresiones nítidas y colores vibrantes, con modelos adaptados a necesidades domésticas o profesionales."
+
     },
     {
       product: "Impresora Laser Color HP",
       discount: "15% de descuento",
-      image: "/images/impresoraHP.jpeg"
+      image: "/images/impresoraHP.jpeg",
+      description: "Una impresora láser color HP produce impresiones rápidas y de alta calidad, ideal para documentos vibrantes y gráficos detallados."
     },
     {
       product: "Impresora ecologica",
       discount: "10% de descuento",
-      image: "/images/ecoprinter.jpg"
+      image: "/images/ecoprinter.jpg",
+      description: "Una impresora ecológica está diseñada para minimizar el impacto ambiental, utilizando menos energía, consumibles reciclables y modos de impresión eficientes para reducir desperdicios."
     },
     {
       product: "Impresora portatil",
       discount: "10% de descuento",
-      image: "/images/printerport.jpg"
+      image: "/images/printerport.jpg",
+      description: "Dispositivo compacto y ligero, diseñado para imprimir desde cualquier lugar, ideal para viajes o entornos de trabajo móviles."
     }
   ]
 
@@ -34,7 +39,7 @@ const HomePage = () => {
     {
       name: "Impresora Multifuncional Inteligente",
       description: "Equipo todo en uno con conectividad en la nube y funciones avanzadas de seguridad.",
-      image: "/images/imp-multifuncional.jpg"
+      image: "/images/imp-multifuncional.jpg",
     },
     {
       name: "Impresora Ecologica",
@@ -74,7 +79,7 @@ const HomePage = () => {
                 className="discount-image"
               />
               <h3>{discount.product}</h3>
-              <p> Poner algo</p>
+              <p> {discount.description}</p>
             </div>
           ))}
         </div>
