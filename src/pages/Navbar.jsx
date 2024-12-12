@@ -1,19 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../pages/navbar.css"
 import { useDispatch, useSelector } from "react-redux";
+import ModalLogin from "./ModalLogin";
+import { logout } from "../store/states/auth.slice";
 
 
 const Navbar = () => {
     const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
     const dispatch = useDispatch();
+    const [isLoginOpen, setIsLoginOpen] = useState(false);
 
     const handleLogout = () => {
-        dispatch(logaut());
+        dispatch(logout());
         alert("has cerrado seccion.");
     };
 
+  const handleLoginOpen = () => setIsLoginOpen(true);
+  const handleLoginClose = () => setIsLoginOpen(false);
+
     return (
+        <>
         <nav className="navbar">
             <div className="navbar-logo">
                 <h1> CP </h1>
@@ -33,10 +40,12 @@ const Navbar = () => {
                         <button onClick={handleLogout} className="logout-button"> Cerrar seccion </button>
                     </li>
                 ) : (
-                    <li><Link to="/Login">Iniciar seccion</Link></li>
+                    <li><button onClick={handleLoginOpen} className="login-button">Iniciar Sesion</button></li>
                 )}
             </ul>
         </nav>
+        <ModalLogin isOpen={isLoginOpen} onClose={handleLoginClose}/>
+    </>
     );
 };
 

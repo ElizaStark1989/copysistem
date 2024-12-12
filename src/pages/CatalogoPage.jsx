@@ -15,7 +15,10 @@ const CatalogoPage = () => {
 
   return (
     <div className='catalogo-container'>
-      <h1>Catalogo de Impresoras</h1>
+      <div className='catalogo-title'>
+        <h1>Catálogo de Impresoras</h1>
+        <p>Tu próxima impresión comienza aquí</p>
+      </div>
       <div className='catalogo-grid'>
         {printers.map((printer) => (
           <div className='catalogo-card' key={printer.id}>
@@ -39,4 +42,4 @@ const CatalogoPage = () => {
   )
 }
 
-      export default CatalogoPage;
+export default CatalogoPage;

@@ -40,35 +40,35 @@ const printers = [
       name: "HP OfficeJet Pro 9015e",
       description: "Impresora multifunción de inyección de tinta con impresión a doble cara automática y conectividad inteligente.",
       price: 279.99,
-      image: "https://images.unsplash.com/photo-1612831667475-1d6dc7b5f55a"
+      image: "/images/jetpro9015.jpg"
     },
     {
       id: 7,
       name: "Canon imageCLASS MF743Cdw",
       description: "Impresora láser multifunción a color con pantalla táctil y alta velocidad de impresión.",
       price: 599.99,
-      image: "https://images.unsplash.com/photo-1596119915513-ef15b9ab3b67"
+      image: "/images/impresoramf743.jpeg"
     },
     {
       id: 8,
       name: "Epson WorkForce WF-2830DWF",
       description: "Impresora multifunción 4 en 1 con conectividad inteligente y diseño compacto.",
       price: 99.99,
-      image: "https://images.unsplash.com/photo-1584911389119-e571d3a2d00b"
+      image: "/images/impresorawf2830.jpg"
     },
     {
       id: 9,
       name: "Brother MFC-L3770CDW",
       description: "Impresora láser multifunción a color con impresión dúplex y conectividad inalámbrica.",
       price: 429.99,
-      image: "https://images.unsplash.com/photo-1580910186650-663cbb80dfd3"
+      image: "/images/impresoramfcl377.jpg"
     },
     {
       id: 10,
       name: "HP Envy 6420e",
       description: "Impresora multifunción de inyección de tinta con impresión móvil y diseño elegante.",
       price: 149.99,
-      image: "https://images.unsplash.com/photo-1573500185127-5a290b11db2d"
+      image: "/images/impresora-hp-multifuncion-envy-6420e-aio.jpg"
     },
   ];
 

@@ -1,0 +1,26 @@
+.carrusel-container {
+    margin: 20px auto; /* Centra horizontalmente */
+    max-width: 1000px; /* Ancho máximo */
+    overflow: hidden; /* Oculta contenido desbordado */
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative;
+}
+
+/* Estilo para las imágenes */
+.carrusel-container img {
+    width: 100%; /* Ajusta las imágenes al ancho del carrusel */
+    height: 300px; /* Mantiene la proporción */
+    object-fit: cover; /* Recorta las imágenes sin deformarlas */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Paginación */
+.swiper-pagination-bullet {
+    background-color: #007bff;
+    opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #0056b3;
+    opacity: 1;
+}
