@@ -27,7 +27,7 @@ function App() {
         <Route path='/quienesSomos' element={<QuienesSomos/>} />
         <Route path='/catalogo' element={<CatalogoPage/>} />
         <Route path='/servicios' element={<ServiciosPage/>} />
-        <Route path='/carritoDeCompras' element={<CarritoPage/>} />
+        <Route path='/favoriprints' element={<CarritoPage/>} />
         <Route path='/politicas' element={<FaqPage/>} />
         <Route path='/register' element={<RegisterPage/>} />
         <Route path='/formulario' element={<FormularioInfo/>}/>

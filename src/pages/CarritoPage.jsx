@@ -26,10 +26,10 @@ const CarritoPage = () => {
   return (
     <div className='carrito-container'>
       <div className='carrito-title'>
-      <h1> Carrito de compras </h1>
+      <h1> Favoriprints </h1>
       </div>
       {cart.length === 0 ? (
-        <p>No tienes productos en tu carrito</p>
+        <p>No tienes productos en tu Favoriprints</p>
       ) : (
         <div className='carrito-grid'>
           {cart.map((item) => (

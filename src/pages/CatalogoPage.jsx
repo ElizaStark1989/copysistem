@@ -33,7 +33,7 @@ const CatalogoPage = () => {
               onClick={() => handleAddToCart(printer)}
               className='catalogo-button'
             >
-              Añadir al carrito
+              Mis Favoriprints
             </button>
           </div>
         ))}

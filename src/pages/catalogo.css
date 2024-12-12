@@ -32,7 +32,7 @@
 }
 
 .catalogo-card {
-    border: 1px solid #addd;
+    border: 1px solid rgba(214, 218, 159, 0.867);
     border-radius: 8px;
     padding: 15px;
     background-color: white;

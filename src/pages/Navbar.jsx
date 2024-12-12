@@ -28,9 +28,9 @@ const Navbar = () => {
             <ul className="navbar-links">
                 <li><Link to ="/"> INICIO </Link></li>
                 <li><Link to ="/QuienesSomos">  Quienes somos </Link></li>
-                <li><Link to ="/Catalogo">  Catalogo </Link></li>
+                <li><Link to ="/Catalogo">  Catálogo </Link></li>
                 <li><Link to ="/Servicios">  Servicios </Link></li>
-                <li><Link to ="/FAQ"> FAQ </Link></li>
+                <li><Link to ="/FAQ"> Politicas </Link></li>
                 <li><Link to ="/Register">  Registrate </Link></li>
                 {isLoggedIn && (
                 <li><Link to ="/CarritoDeCompras">  Carrito de compras </Link></li>
